@@ -15,6 +15,9 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
+  quotient = num1/num2
+  result = num1 - (quotient*num2)
+  return result
 
 end
 
